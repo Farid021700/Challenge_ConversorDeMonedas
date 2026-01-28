@@ -36,11 +36,13 @@ El objetivo es consolidar los conocimientos adquiridos en Java básico, Programa
 conversor-moneda
 │
 ├── src
-│   └── lad.com.alura.conversormoneda
+│   └── com.alura.conversormoneda
 │       ├── ConversorApp.java
 │       ├── Conversor.java
-│       ├── CalculadoraConversion.java
 │       └── Moneda.java
+── 
+│   └── com.alura.calculadoraconversion
+│       ├── CalculadoraConversion.java
 │
 └── README.md
 ```
@@ -52,7 +54,7 @@ conversor-moneda
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/conversor-moneda-java.git
+git clone https://github.com/Farid021700/Challenge_ConversorDeMonedas-java.git
 ```
 
 2. Abre el proyecto en tu IDE (IntelliJ IDEA recomendado).
@@ -62,7 +64,7 @@ git clone https://github.com/tu-usuario/conversor-moneda-java.git
 4. En la clase `Conversor`, reemplaza:
 
 ```java
-String apiKey = "TU_API_KEY";
+String apiKey = "bbac7527ed9064b757c2072f";
 ```
 
 por tu clave real.
